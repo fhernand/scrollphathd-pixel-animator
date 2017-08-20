@@ -1,11 +1,11 @@
 # scrollphathd-pixel-animator
-Animate [Pimoroni scrollphat HD](https://github.com/pimoroni/scroll-phat-hd) LED matrix using python
+*Animate [Pimoroni scrollphat HD](https://github.com/pimoroni/scroll-phat-hd) LED matrix using python*
 
-These example scripts show how you can take an array of several frames of matrix brightness values to show animations.
+These example scripts show how an array of several frames of matrix brightness values are used to display animations, such as this [candle animation]().
 
 ## 1. How to generate the array files
 
-To generate these arrays you can use [ASCII-Video](https://github.com/fossage/ASCII-Video). That project allows you to take a video and render it as ASCII characters, in our case as brightness values to control the LED brightness of the scrollphat matrix. Important, before generating the output file you need to:
+Unfortunately, this project is not as powerful as its name suggests. Quite some manual work maybe needed to animate your own videos. But I hope that these steps help you to do it. To generate these arrays you can use [ASCII-Video](https://github.com/fossage/ASCII-Video). That project allows you to take a video and render it as ASCII characters, in our case as brightness values to control the LED brightness of the scrollphat matrix. Important, before generating the output file you need to:
 
 - edit the contained ImageToAscii command to apply a pixel array with numbers so that scrollphat can render them as values
 - disable the coloration to generate just the brightness values
