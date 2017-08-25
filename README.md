@@ -1,7 +1,7 @@
 # scrollphathd-pixel-animator
 *Animates [Pimoroni scrollphat HD](https://github.com/pimoroni/scroll-phat-hd) videos with LED matrix pixels using python*
 
-These example scripts show how an array of several frames of matrix brightness values are used to display animations, such as this [candle animation]().
+These example scripts show how an array of several frames of matrix brightness values are used to display animations, such as this [candle animation](https://youtu.be/Bzze-ceYA8c).
 
 ## 1. How to generate the array files
 
