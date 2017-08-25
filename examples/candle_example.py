@@ -19,7 +19,7 @@ list = []
 for s in y:
 	list.append(s.splitlines())
 
-# Function that returns the brightness value nnn from the array at position i,j, for frame step 
+# Function that returns the brightness value nnn as a float, from the array at position i,j, for frame "step" 
 def candle(i , j, step):
     r = float(list[step][i][j*3:j*3+3])
     return r
@@ -35,7 +35,7 @@ while True:
  
     timestep = timestep + 1
 	
-    # Render pixel Column by column based on array contents
+    # Render each pixel column by column based on array contents
     for x in range(0, scrollphathd.DISPLAY_WIDTH):
         for y in range(0, scrollphathd.DISPLAY_HEIGHT):
             v = candle(x, y, timestep)
